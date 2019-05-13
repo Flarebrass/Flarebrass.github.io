@@ -1,3 +1,49 @@
 body {
-    background-color: #c0c0c0;
+    background-color: #e0ffe0;
+}
+
+/*
+body /deep/ div {
+    border-top: 5px solid #0000ff;
+}
+
+popup-banner::shadow div {
+    border-top: 5px solid #0000ff;
+}
+*/
+/*
+popup-banner::shadow .popupBannerOuter {
+    margin: 0.5em;
+    padding: 0.5em 2em;
+
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 0px solid #000000;
+    color: #ffffff;
+}
+popup-banner::shadow .popupBannerMiddle {
+    padding: 0 2em;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 0em, rgba(0, 0, 0, 0.2) 4em, rgba(0, 0, 0, 0.2) calc(100% - 4em), rgba(0, 0, 0, 0) 100%);
+}
+popup-banner::shadow .popupBannerInner {
+    border: 0px solid #ff0000;
+    border-bottom-width: 1px;
+}
+*/
+popup-banner .popupBannerOuter {
+    margin: 0.5em;
+    padding: 0.5em 2em;
+
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 0px solid #000000;
+    color: #ffffff;
+}
+popup-banner .popupBannerMiddle {
+    padding: 0 2em;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 0em, rgba(0, 0, 0, 0.2) 4em, rgba(0, 0, 0, 0.2) calc(100% - 4em), rgba(0, 0, 0, 0) 100%);
+}
+popup-banner .popupBannerInner {
+    border: 0px solid #ff0000;
+    border-bottom-width: 1px;
 }
